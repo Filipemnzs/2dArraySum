@@ -1,0 +1,21 @@
+/*Write a method that accepts a two-dimensional array of 
+integers and returns the sum of all the elements in the array.*/
+
+public static int sumArr(int[][] arr){
+
+  int sum = 0;
+  
+  //in these for loops i will represent the row index
+  //and j will represent the column index
+  
+  for(int i = 0; i < arr.length; i++)
+   {
+      for(int j =0; j < arr[i].length; j++)
+        {
+          sum = sum + arr[i][j];
+        }
+    }
+    
+    return sum;
+    
+ }
